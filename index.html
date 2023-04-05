@@ -10,33 +10,32 @@
     <link rel="icon" type="image/svg+xml" href="./Assets/favicon.svg">
     <link rel="alternate icon" type="image/x-icon" href="./Assets/favicon.ico">
   </head>
-<body>
-  <div class="wrapper" id="wrapper">
-    <div class="title">
-      Animate SVG Frames
-      <a href="https://github.com/BernardoCabral123/SVG-Frame-Animator" target="_blank">
-        <i class="fab fa-github" aria-hidden="true"></i>
-      </a>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <div class="title">
+        Animate SVG Frames
+        <a href="https://github.com/BernardoCabral123/SVG-Frame-Animator" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="dropzone" id="dropzone">
+        <p>Drag and drop SVG files here or <label for="file-input">click to browse</label>.</p>
+        <input type="file" id="file-input" multiple accept=".svg">
+      </div>
+      <p class="dropzone__fileCount" id="file-count">0 files uploaded</p>
+      <div class="durationBox">
+        <label for="durationBox">Animation Duration (seconds):</label>
+        <input type="number" id="animation-duration" min="0.1" step="0.1" value="1">
+      </div>
+      <div class="buttonBox">
+        <button class="button button--inactive" id="merge">Upload Frames</button>
+        <button id="download" class="button" style="display: none;">Download Animation SVG</button>
+      </div>
+      <div id="animation-container"></div>
     </div>
-    <div class="dropzone" id="dropzone">
-      <p>Drag and drop SVG files here or <label for="file-input">click to browse</label>.</p>
-      <input type="file" id="file-input" multiple accept=".svg">
-    </div>
-    <p class="dropzone__fileCount" id="file-count">0 files uploaded</p>
-    <div class="durationBox">
-      <label for="durationBox">Animation Duration (seconds):</label>
-      <input type="number" id="animation-duration" min="0.1" step="0.1" value="1">
-    </div>
-    <div class="buttonBox">
-      <button class="button button--inactive" id="merge">Upload Frames</button>
-      <button id="download" class="button" style="display: none;">Download Animation SVG</button>
-    </div>
-
-
-    <div id="animation-container"></div>
-
-  </div>
-  
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
+
+
+
