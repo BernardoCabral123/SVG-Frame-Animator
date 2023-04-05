@@ -37,7 +37,6 @@ body {
   border: 0.125rem dashed #0077cc;
   border-radius: 0.625rem;
   text-align: center;
-  font-size: 1.125rem;
 }
 
 .dropzone--active {
