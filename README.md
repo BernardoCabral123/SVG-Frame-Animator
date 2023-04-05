@@ -1,5 +1,4 @@
-Animate SVG Frames:
-  Animate SVG Frames is a simple web app that allows users to create an animated SVG file from multiple SVG frames. Users can upload SVG files by either dragging and dropping them onto the designated dropzone or browsing and selecting them from their file system. The app then generates an animation where each frame is shown for a specified duration. Users can download the resulting animated SVG file by clicking the "Download Animation SVG" button.
+Animate SVG Frames is a simple web app that allows users to create an animated SVG file from multiple SVG frames. Users can upload SVG files by either dragging and dropping them onto the designated dropzone or browsing and selecting them from their file system. The app then generates an animation where each frame is shown for a specified duration. Users can download the resulting animated SVG file by clicking the "Download Animation SVG" button.
 
 Features:
   Drag and drop functionality for uploading SVG files
