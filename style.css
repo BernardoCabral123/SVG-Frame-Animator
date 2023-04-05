@@ -32,7 +32,7 @@ body {
 
 .dropzone {
   width: 100%;
-  padding: 3.125rem;
+  padding: 4rem;
   background-color: #f0f0f0;
   border: 0.125rem dashed #0077cc;
   border-radius: 0.625rem;
