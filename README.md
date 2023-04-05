@@ -21,5 +21,5 @@ Browser Compatibility:
   - Microsoft Edge
   
 Limitations:
-  The maximum number of SVG files that have been tested and can be processed is 500 frames.
-  SVG files must contain a "g" tag with the frame path.
+  - The maximum number of SVG files that have been tested and can be processed is 500 frames.
+  - SVG files must contain a "g" tag with the frame path.
