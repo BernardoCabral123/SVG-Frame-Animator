@@ -140,4 +140,9 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+  .alert-container {
+    max-width: calc(100vw - 4rem);
+  }
 }
+
