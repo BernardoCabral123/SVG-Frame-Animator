@@ -100,11 +100,6 @@ body {
     padding: 0 16px;
   }
 
-  .title {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .buttonBox {
     flex-direction: column;
   }
