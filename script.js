@@ -35,7 +35,9 @@ downloadButton.addEventListener('click', () => {
 
 function handleFiles(files) {
   for (const file of files) {
-    if (file.type === 'image/svg+xml') {
+    const fileExtension = file.name.split('.').pop().toLowerCase();
+
+    if (file.type === 'image/svg+xml' && fileExtension === 'svg') {
       const reader = new FileReader();
       reader.readAsText(file);
       reader.onload = () => {
